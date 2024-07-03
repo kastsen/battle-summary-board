@@ -84,7 +84,7 @@ export const SummaryBoard: React.FC = () => {
                                                     style={{
                                                         marginRight: '10px',
                                                         width: '60px',
-                                                        height: '60px',
+                                                        height: 'auto',
                                                         filter: player.state === 'alive' ? 'none' : 'grayscale(100%)',
                                                     }}
                                                 />
