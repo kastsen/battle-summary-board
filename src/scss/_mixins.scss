@@ -1,0 +1,12 @@
+@import "variables";
+
+@mixin backgroundCover($url) {
+  background: url($url);
+  background-size: cover;
+}
+
+@mixin font($size) {
+  font-size: $size;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+}
