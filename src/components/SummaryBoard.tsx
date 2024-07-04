@@ -7,8 +7,6 @@ const { Title } = Typography;
 interface Player {
     id: number;
     name: string;
-    kills: number;
-    deaths: number;
     score: number;
     state: 'alive' | 'dead';
     isFriend: boolean;
