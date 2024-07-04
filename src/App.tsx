@@ -7,11 +7,7 @@ function App() {
   return (
     <>
       <Layout>
-          <Content
-              style={{
-                  padding: '0 48px',
-              }}
-          >
+          <Content>
             <SummaryBoard/>
           </Content>
       </Layout>
